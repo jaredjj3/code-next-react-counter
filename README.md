@@ -1,3 +1,42 @@
 # code-next-react-counter
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-76zkzh)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/code-next-react-counter)
+
+## Counter component
+
+### YOUR TURN
+
+Make a counter component using React.
+
+- A display that shows the user what the `count` is at. The `count` should be initialized at 0. 
+- A decrement button that subtracts 1 from the current `count` and updates the display.
+- An increment button that adds 1 to the current `count` and updates the display.
+
+#### Recipes
+
+##### Create and show state
+
+```jsx
+const Example = () => {
+  const [count, setCount] = useState(0);
+
+  return <div>Count: {count}</div>;
+};
+```
+
+##### Add click handler
+
+```jsx
+const Example = () => {
+  const onIncrementClick = () => {
+    console.log('increment');
+  };
+
+  return <button onClick={onIncrementClick}>increment</button>;
+};
+```
+
+### Reflection
+
+- Why do we have to use `React.useState`?
+- What does React do under-the-hood for us?
