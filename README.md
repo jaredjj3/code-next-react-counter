@@ -28,11 +28,11 @@ const Example = () => {
 
 ```jsx
 const Example = () => {
-  const onIncrementClick = () => {
+  const increment = () => {
     console.log('increment');
   };
 
-  return <button onClick={onIncrementClick}>increment</button>;
+  return <button onClick={increment}>increment</button>;
 };
 ```
 
