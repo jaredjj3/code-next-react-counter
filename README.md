@@ -2,6 +2,12 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/code-next-react-counter)
 
+In this lesson, engineers will
+
+- create a counter component using React
+- understand the benefits of using React
+- solidify their knowledge of the useState hook and React onClick events
+
 ## Counter component
 
 ### YOUR TURN
