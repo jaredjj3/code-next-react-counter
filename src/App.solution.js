@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './style.css';
 
 export const App = () => {
   const [count, setCount] = useState(0);
@@ -13,16 +12,21 @@ export const App = () => {
   };
 
   return (
-    <>
+    <div class="container">
       <h1>code-next-react-counter</h1>
 
       <hr />
 
-      <div>
-        <div>Count: {count}</div>
-        <button onClick={increment}>increment</button>
-        <button onClick={decrement}>decrement</button>
+      <div>Count: {count}</div>
+
+      <div class="btn-group">
+        <button class="btn btn-primary" onClick={increment}>
+          increment
+        </button>
+        <button class="btn btn-primary" onClick={decrement}>
+          decrement
+        </button>
       </div>
-    </>
+    </div>
   );
 };

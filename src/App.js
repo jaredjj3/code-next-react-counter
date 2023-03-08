@@ -1,9 +1,8 @@
 import React from "react";
-import './style.css';
 
 export const App = () => {
   return (
-    <>
+    <div class="container">
       <h1>code-next-react-counter</h1>
 
       <hr />
@@ -11,6 +10,6 @@ export const App = () => {
       <div>
         Counter
       </div>
-    </>
+    </div>
   );
 };
