@@ -12,18 +12,18 @@ export const App = () => {
   };
 
   return (
-    <div class="container">
+    <div className="container">
       <h1>code-next-react-counter</h1>
 
       <hr />
 
       <div>Count: {count}</div>
 
-      <div class="btn-group">
-        <button class="btn btn-primary" onClick={increment}>
+      <div className="btn-group">
+        <button className="btn btn-primary" onClick={increment}>
           increment
         </button>
-        <button class="btn btn-primary" onClick={decrement}>
+        <button className="btn btn-primary" onClick={decrement}>
           decrement
         </button>
       </div>

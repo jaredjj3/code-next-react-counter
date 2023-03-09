@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 export const App = () => {
   return (
-    <div class="container">
+    <div className="container">
       <h1>code-next-react-counter</h1>
 
       <hr />
 
       <div>
-        Counter
+        {/* YOUR COUNTER CODE HERE */}
       </div>
     </div>
   );
